@@ -6,7 +6,7 @@ Local reverse proxy that turns your **logged-in Xiaomi MiMo Desktop** session in
 
 ## Purpose
 
-Xiaomi MiMo Desktop already has access to models like:
+Xiaomi MiMo Desktop already has access to models like:（11.09.2026）
 
 | Model ID | Display name |
 |----------|----------------|
