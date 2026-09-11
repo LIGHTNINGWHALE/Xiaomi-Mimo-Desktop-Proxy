@@ -1,0 +1,29 @@
+# Secrets and local runtime state — never commit
+.local-api-key
+**/.local-api-key
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+uv.lock
+
+# Local proxy runtime
+oneclick/proxy.pid
+*.pid
+
+# Logs / OS
+*.log
+logs/
+.DS_Store
+.idea/
+.vscode/

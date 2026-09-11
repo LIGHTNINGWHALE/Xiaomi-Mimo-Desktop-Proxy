@@ -1,0 +1,20 @@
+{
+  "$comment": "CC Switch / OpenAI-compatible provider template. Replace YOUR_LOCAL_KEY with the key printed by oneclick/start.sh (or read proxy/.local-api-key). Do not commit a filled-in copy.",
+  "name": "Xiaomi MiMo Desktop (local proxy)",
+  "type": "openai",
+  "baseUrl": "http://127.0.0.1:18080/v1",
+  "apiKey": "YOUR_LOCAL_KEY",
+  "models": [
+    "mimo-x-pro-preview",
+    "mimo-x-flash-preview",
+    "mimo-pro",
+    "mimo-flash"
+  ],
+  "defaultModel": "mimo-x-pro-preview",
+  "notes": [
+    "Requires Xiaomi MiMo Desktop logged in on this machine.",
+    "Prefer Chat Completions upstream format when the UI offers a choice.",
+    "Responses API is also supported at /v1/responses.",
+    "Loopback only (127.0.0.1). Do not expose this port publicly."
+  ]
+}
